@@ -1,9 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/meeky.jpg);
+}
+
 .header {
-    background-color: #1f2937;
+    background-color: rgba(0, 0, 0, 0.9);
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 ul {
     list-style: none;
@@ -11,20 +25,30 @@ ul {
     gap: 10px;
 }
 .block1 {
-    background-color: #1f2937;
+    background-color: rgba(0, 0, 0, 0.6);
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    width: fit-content;
+    padding: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 25px;
+}
 
-
+.words {
+    width: 300px;
 }
 .butts {
-    background-color: #3882f6;
+    background-color: #faae3d;
     color: white;
     width: 100px;
     height: 25px;
+    border-radius: 25px;
 }
 .block2 {
+    background-color: #1f2937;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,5 +86,11 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+.first {
+    width: 400px;
+    display: flex;
+    align-self: flex-end;
 
 }
